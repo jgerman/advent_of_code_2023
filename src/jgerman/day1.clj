@@ -6,23 +6,15 @@
 
 (defn pre-process [line]
   (-> line
-      (str/replace "oneight" "18")
-      (str/replace "twone" "21")
-      (str/replace "eightwo" "82")
-      (str/replace "eighthree" "83")
-      (str/replace "threeight" "38")
-      (str/replace "fiveight" "58")
-      (str/replace "sevenine" "79")
-      (str/replace "nineight" "98")
-      (str/replace "one" "1")
-      (str/replace "two" "2")
-      (str/replace "three" "3")
-      (str/replace "four" "4")
-      (str/replace "five" "5")
-      (str/replace "six" "6")
-      (str/replace "seven" "7")
-      (str/replace "eight" "8")
-      (str/replace "nine" "9")))
+      (str/replace "one" "o1e")
+      (str/replace "two" "t2o")
+      (str/replace "three" "t3e")
+      (str/replace "four" "f4r")
+      (str/replace "five" "f5e")
+      (str/replace "six" "s6x")
+      (str/replace "seven" "s7v")
+      (str/replace "eight" "e8t")
+      (str/replace "nine" "n9e")))
 
 (defn calibrate [line]
   (let [calibrated
