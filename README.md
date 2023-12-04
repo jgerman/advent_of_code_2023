@@ -26,3 +26,8 @@ football on in the background.
 
 Rather than contort the current code to get the second star I think I'll come
 back to this later and rewrite the whole thing.
+
+## Day 4
+
+There's probably way more elegant ways to do this but I always default ot
+loop/recur because it's easy for me to think through.
