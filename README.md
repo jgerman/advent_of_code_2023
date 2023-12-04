@@ -16,3 +16,13 @@ modify it to handle all overlaps.
 Every year (I think) I use instaparse because it feels cleaner than splits and
 regexes. Every year I have to re-learn the bits I've forgotten, having a parser
 library is still a great tool in the toolbox.
+
+## Day 3
+
+I'm not happy with how this shook out. I had the parser quickly and it was the
+right path but a foolish choice in how to store the number locations put a
+subtle bug in my code... It's always tough doing the Sunday tasks because I have
+football on in the background.
+
+Rather than contort the current code to get the second star I think I'll come
+back to this later and rewrite the whole thing.

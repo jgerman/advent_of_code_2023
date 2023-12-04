@@ -3,8 +3,6 @@
             [instaparse.core :as insta]
             [clojure.string :as str]))
 
-(def example-line "Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red")
-
 (def game
   (insta/parser
    "<S> = GAME_NUM PULLS
@@ -19,7 +17,6 @@
     comma = ','
     number = #'[0-9]+'
     whitespace = #'\\s+'"))
-
 
 (defn parse-line [line]
   (let [[game-num pulls] (->> (game line)
