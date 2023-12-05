@@ -31,3 +31,15 @@ back to this later and rewrite the whole thing.
 
 There's probably way more elegant ways to do this but I always default ot
 loop/recur because it's easy for me to think through.
+
+## Day 5
+
+Part 1 was easy, I was tired of parsing and the input was easy to convert to EDN by hand so I did.
+
+Part 2 is going to require a more efficient aproach than just brute forcing it
+(though I tried to see how it would go). I'll have to come back to it. Not
+enough time on a weekday to really think through the part 2 of a lot of problems
+usually that doesn't really become an issue until further in.
+
+TODO parse into EDN appropriately
+TODO part 2
